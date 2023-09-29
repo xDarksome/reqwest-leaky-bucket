@@ -1,4 +1,5 @@
-//! Middleware to rate-limit requests built on [`reqwest_middleware`],
+//! Middleware to rate-limit requests built on
+//! [`reqwest_middleware`](https://docs.rs/reqwest-middleware/latest/reqwest_middleware),
 //! [`reqwest_ratelimit`] and [`leaky_bucket`].
 //!
 //! Provides a [`reqwest_ratelimit::RateLimiter`] adapter for [`leaky_bucket::RateLimiter`].
