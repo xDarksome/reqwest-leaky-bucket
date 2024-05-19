@@ -12,8 +12,8 @@ categories = ["web-programming::http-client"]
 [dependencies]
 async-trait = "0.1"
 leaky-bucket = "1"
-reqwest-ratelimit = "0.1"
+reqwest-ratelimit = "0.2"
 
 [dev-dependencies]
-reqwest = { version = "0.11", default-features = false }
-reqwest-middleware = "0.2"
+reqwest = { version = "0.12", default-features = false }
+reqwest-middleware = "0.3"
