@@ -581,28 +581,13 @@ dependencies = [
 
 [[package]]
 name = "reqwest-leaky-bucket"
-version = "0.2.1"
+version = "0.3.0"
 dependencies = [
  "async-trait",
  "leaky-bucket",
  "reqwest",
- "reqwest-middleware 0.4.0",
+ "reqwest-middleware",
  "reqwest-ratelimit",
-]
-
-[[package]]
-name = "reqwest-middleware"
-version = "0.3.3"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "562ceb5a604d3f7c885a792d42c199fd8af239d0a51b2fa6a78aafa092452b04"
-dependencies = [
- "anyhow",
- "async-trait",
- "http",
- "reqwest",
- "serde",
- "thiserror",
- "tower-service",
 ]
 
 [[package]]
@@ -622,14 +607,14 @@ dependencies = [
 
 [[package]]
 name = "reqwest-ratelimit"
-version = "0.2.0"
+version = "0.3.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f2c673125eda7cae1344f1cfa6ca20afab39cd86a3ec57b949bec1c580eb8c87"
+checksum = "8c39c09a79022d988bfa755ba3dc977862b0bc1ec9581611540789d069132d18"
 dependencies = [
  "async-trait",
  "http",
  "reqwest",
- "reqwest-middleware 0.3.3",
+ "reqwest-middleware",
 ]
 
 [[package]]
