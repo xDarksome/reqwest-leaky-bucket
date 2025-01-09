@@ -1,7 +1,7 @@
 [package]
 name = "reqwest-leaky-bucket"
 authors = ["Darksome <dev@darksome.com>"]
-version = "0.2.1"
+version = "0.3.0"
 edition = "2021"
 description = "Leaky-bucket rate limit middleware for reqwest."
 repository = "https://github.com/xDarksome/reqwest-leaky-bucket"
@@ -12,7 +12,7 @@ categories = ["web-programming::http-client"]
 [dependencies]
 async-trait = "0.1"
 leaky-bucket = "1"
-reqwest-ratelimit = "0.2"
+reqwest-ratelimit = "0.3"
 
 [dev-dependencies]
 reqwest = { version = "0.12", default-features = false }
