@@ -10,7 +10,6 @@
 ## Usage
 
 ```rust
-use async_trait::async_trait;
 use reqwest_leaky_bucket::leaky_bucket::RateLimiter;
 use reqwest_middleware::{ClientBuilder, ClientWithMiddleware};
 

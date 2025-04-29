@@ -581,9 +581,8 @@ dependencies = [
 
 [[package]]
 name = "reqwest-leaky-bucket"
-version = "0.3.0"
+version = "0.4.0"
 dependencies = [
- "async-trait",
  "leaky-bucket",
  "reqwest",
  "reqwest-middleware",
@@ -607,9 +606,9 @@ dependencies = [
 
 [[package]]
 name = "reqwest-ratelimit"
-version = "0.3.0"
+version = "0.4.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "8c39c09a79022d988bfa755ba3dc977862b0bc1ec9581611540789d069132d18"
+checksum = "2b8fff0d8036f23dcad6c27605ca3baa8ae3867438d0a8b34072f40f6c8bf628"
 dependencies = [
  "async-trait",
  "http",
