@@ -1,6 +1,6 @@
 # reqwest-leaky-bucket
 
-[`leaky-bucket`](https://crates.io/crates/reqwest-middleware) rate-limit middleware implementation for
+[`leaky-bucket`](https://crates.io/crates/leaky-bucket) rate-limit middleware implementation for
 [`reqwest-middleware`](https://crates.io/crates/reqwest-middleware) based on 
 [`reqwest-ratelimit`](https://crates.io/crates/reqwest-ratelimit).
 
