@@ -616,6 +616,8 @@ dependencies = [
 [[package]]
 name = "reqwest-ratelimit"
 version = "0.5.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "9dcdd7bc47db7ba0b18b58ebbfba6449c266d0334175eaf5e2219ac4c3a047df"
 dependencies = [
  "async-trait",
  "http",
